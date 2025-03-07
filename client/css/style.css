@@ -1,0 +1,26 @@
+body{
+    background-color: #131722;
+    color: white;
+}
+
+input,textarea{
+background-color: #131722 !important;
+color: white !important;
+
+}
+input::placeholder, textarea::placeholder{
+    color: white !important;
+}
+.text-black h2, 
+.text-black p {
+  color: #000 !important;
+}
+
+ /* li {
+    list-style: none;
+    background-color: #a8a8a83d;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    font-size: 16px; 
+} */

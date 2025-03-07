@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container py-5">
+        <input type="text" id="title" class="form-control mb-3" placeholder="title">
+        <textarea name="" id="desc" class="form-control mb-5" placeholder="description..."></textarea>
+        <button onclick="addPost()" class="btn btn-info">Add</button>
+    </div>
+
+    <div id="postsContainer" class="container my-5">
+        <input type="text" id="search" class="form-control mb-4" placeholder="search posts...">
+        <div class="row" id="data">
+        </div>
+        
+    </div>
+    
+    <!-- <ul id="msgContainer">
+
+    </ul>
+
+        <div class="container d-flex fixed-bottom my-5">
+            <p id="typeMsg"></p>
+            <input id="message" type="text" class="form-control mx-2" placeholder="send message...">
+            <button onclick="sendMessage()" class="btn btn-info">Send</button>
+        </div> -->
+    
+    <script src="https://cdn.socket.io/4.8.1/socket.io.min.js" integrity="sha384-mkQ3/7FUtcGyoppY6bz/PORYoGqOl7/aSUMn2ymDOJcapfS6PHqxhRTMh1RR0Q6+" crossorigin="anonymous"></script>
+    <script src="js/client.js"></script>
+</body>
+</html>
